@@ -730,3 +730,260 @@ font-size: 16px;
 .fas:hover {
     color: #EF5870;
 }
+.item_card_gorizont {
+    display: flex;
+    height: 306px;
+    width: 652px;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+    box-shadow: 0 5px 8px rgb(0 0 0 / 16%);
+    margin-bottom: 40px;
+}
+.item_img_gorizont {
+    height: 306px;
+ }
+
+ .card_heading_gorizont {
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin-bottom: 71px;
+ }
+ .gorizont_text {
+    font-size: 22px;
+line-height: 26px;
+color: #575757;
+ }
+ .card_price_gorizont {
+    font-size: 22px;
+    line-height: 26px;
+ }
+ .txt-box_gorizont {
+     display: flex;
+     margin-left: 31px;
+     flex-direction: column;
+     align-items: space-between;
+ }
+ 
+ .cart_itemFeature_quantity {
+     margin-left: 35px;
+ }
+ .cart-cross {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+ }
+ .cart_item_box {
+     width: 652px;
+ }
+ .clear-continue {
+     display: flex;
+     justify-content: space-between;
+    margin: 72px 0 128px 0;
+    }
+ .clear-continue-button {
+     border: 1px solid #A4A4A4;
+     color: #A4A4A4;
+     padding: 15px 35px 15px 35px;
+     font-size: 14px;
+     line-height: 17px;
+     background-color: #fff;
+ }
+ .formBox {
+    width: 100%
+ }
+ .inputShip {
+     width: 100%;
+     padding: 12px;
+    border: 1px solid #A4A4A4;
+    margin-bottom: 20px;
+ }
+ .cartBox {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 96px;
+     padding: 0;
+ }
+ .checkOut_box {
+     width: 31%;
+     display: flex;
+     flex-direction: column;
+      }
+ .checkOutText {
+     margin: 42px;
+     display: flex;
+    flex-direction: column;
+}
+.checkOutBox {
+    margin-top: 57px;
+    background-color: #F5F3F3;
+}
+.subTotal {
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
+}
+.grandTotal {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+.totalText {
+    margin-left: 25px;
+}
+.grand {
+    color: #F16D7F;
+    font-weight: bold;
+}
+.checkout-button {
+    margin-top: 17px;
+    color:#ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #F16D7F;
+    border: none;
+}
+legend {
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+color: #222222;
+}
+.loyality {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.loyality_header,
+.loyality_text {
+    margin-bottom: 22px;
+    }
+    .loyality_list {
+        padding-inline-start: 0;
+    }
+.loyality_list_item {
+    list-style: none;
+    margin-bottom: 16px;
+}
+ul > .loyality_list_item:before{
+    content: '✔';
+    margin-right: 22px;
+    }
+    .fa-arrow-right {
+        color: #ffffff;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    @media (min-width: 375px) 
+    and (max-width:768px)
+    {
+     .cartBox {
+         flex-direction: column;
+    } 
+     .checkOut_box {
+         flex-direction: row;
+         width: 100%;
+         justify-content: space-between;
+         margin-bottom: 128px;
+    }  
+    .formBox {
+        width:50%;
+    }
+    .checkOutBox {
+        margin-top: 25px;
+        height: 214px;
+    }
+.middle {
+    flex-direction: column;
+}
+.subscribeBox {
+    margin-bottom: 140px;
+}
+
+}
+@media (max-width:374px) {
+    .container, .myContainer {
+        max-width: 370px;}
+    .login_img, .cart_img {
+        display: none;
+    }
+    .burgerGroup {
+        justify-content: flex-end;
+    }
+    .cartBox {
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+   } 
+   .cart_item_box {
+       width: 100%;
+   }
+   .item_card {
+       width: 100%;
+   }
+   .item_card_gorizont {
+       max-width: 370px;
+       height: fit-content;
+   }
+.item_img_gorizont {
+    max-height: 200px;
+}
+.txt-box_gorizont {
+    margin: 45px 0 0 20px;
+}
+.card_heading_gorizont {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 25px;
+}
+.gorizont_text {
+font-size: 14px;
+line-height: 17px;
+
+}
+
+    .checkOut_box {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 128px;
+   }  
+   .formBox {
+       width:100%;
+   }
+   .checkOutBox {
+       margin-top: 25px;
+       height: 214px;
+   }
+.middle {
+   flex-direction: column;
+   box-sizing: border-box;
+}
+.subscribeBox {
+   margin-bottom: 140px;
+   
+}
+.subscribe_text {
+    font-size: 14px;
+line-height: 17px;
+}
+.subscribeForm {
+    max-width: 300px;
+}
+.bottom {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+}
+
+ 
+      
+
+
+
